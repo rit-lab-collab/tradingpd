@@ -1,0 +1,2 @@
+# tradingpd
+its about trading
