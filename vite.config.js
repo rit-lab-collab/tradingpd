@@ -13,7 +13,9 @@ export default defineConfig({
     cssCodeSplit: false,
     brotliSize: false,
     rollupOptions: {
-      inlineDynamicImports: true,
+      output: {
+        inlineDynamicImports: true,
+      },
     },
   },
 })
